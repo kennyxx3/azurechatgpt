@@ -19,9 +19,11 @@ export const StartNewChat: FC<Prop> = (props) => {
         </Typography>
         <div className="flex flex-col gap-2">
           <p className="">
-            Welcome to {AI_NAME}. You should interact in a friendly manner with
-            the AI assistant and refrain from participating in any harmful
-            activities.
+Welcome to the “safe to use” Version of DKV ChatGPT. You should interact in a friendly manner with the AI assistant and refrain from participating in any harmful activities.
+Keep in mind that other DKV employees might also able to access the data you upload.
+</p>
+<p>
+This version is a fork from Microsoft’s code on Github and has been set up by Kenneth Döhmen
           </p>
           <p>You can start a new chat with me by clicking the button below.</p>
         </div>
